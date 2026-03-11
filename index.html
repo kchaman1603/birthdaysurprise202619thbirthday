@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday My Love</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<section class="intro">
+<h1>Happy Birthday Madam Ji ❤️</h1>
+<p>Before the world celebrates your birthday...</p>
+<button onclick="enterSite()">Enter Our Story</button>
+</section>
+
+<section id="main" style="display:none">
+
+<h2>Our Timeline</h2>
+
+<div class="timeline">
+<p>2 March 2024 – First time we met</p>
+<p>3 March – First Instagram chat</p>
+<p>6 March – First call</p>
+<p>7 March – Last time we met</p>
+<p>16 March – Your Birthday 🎂</p>
+</div>
+
+<h2>Love Meter</h2>
+
+<div class="meter">
+<div class="meter-fill"></div>
+</div>
+
+<h2>Photo Memories</h2>
+
+<div class="slideshow">
+<img src="images/p1.jpg">
+<img src="images/p2.jpg">
+<img src="images/p3.jpg">
+</div>
+
+<h2>Guess The Memory</h2>
+
+<p>Where was this photo taken?</p>
+
+<button onclick="answer(true)">Cafe</button>
+<button onclick="answer(false)">Park</button>
+<button onclick="answer(false)">Mall</button>
+
+<p id="result"></p>
+
+<h2>Press & Hold Surprise</h2>
+
+<button id="hold">Hold Me</button>
+
+<div id="secret">
+You are the best thing in my life ❤️
+</div>
+
+<h2>Videos</h2>
+
+<video controls width="300">
+<source src="videos/v1.mp4">
+</video>
+
+<h2>AI Voice Message</h2>
+
+<audio controls>
+<source src="voice/message.mp3">
+</audio>
+
+<h2>Countdown</h2>
+
+<p id="countdown"></p>
+
+<button onclick="fireworks()">Celebrate 🎆</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
